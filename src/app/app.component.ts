@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.form = this.fb.group({
-      yesNoAnswer: ['no'],
+      yesNoAnswer: [null],
     });
   }
 

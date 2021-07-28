@@ -3,6 +3,7 @@
   <button
     appKMItem
     role="radio"
+    [attr.disabled]="disabled ? disabled : null"
     [attr.aria-checked]="isYes"
     [tabindex]="isYes || value === null ? 0 : -1"
     type="button"
@@ -16,6 +17,7 @@
   <button
     appKMItem
     role="radio"
+    [attr.disabled]="disabled ? disabled : null"
     [attr.aria-checked]="isNo"
     [tabindex]="isNo ? 0 : -1"
     type="button"
@@ -27,3 +29,31 @@
     No
   </button>
 </div>
+<!--
+<div class="button-group" role="radiogroup" [attr.aria-label]="label">
+  <label>{{ label }}</label>
+  <div class="radio">
+    <input
+      [id]="id + '-yes'"
+      type="radio"
+      [attr.name]="id"
+      [attr.checked]="isYes"
+      [attr.disabled]="disabled ? disabled : null"
+      (change)="activate(options.YES)">
+      <label [for]="id + '-yes'" class="button button-yes">
+        Yes
+      </label>
+  </div>
+  <div class="radio">
+    <input
+      [id]="id + '-no'"
+      type="radio"
+      [attr.name]="id"
+      [attr.checked]="isNo"
+      [attr.disabled]="disabled ? disabled : null"
+      (change)="activate(options.NO)">
+      <label [for]="id + '-no'" class="button button-no">
+        No
+      </label>
+  </div>
+</div> -->

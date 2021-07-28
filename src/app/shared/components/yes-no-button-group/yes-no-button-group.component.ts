@@ -28,6 +28,7 @@ enum YesNoButtonGroupOptions {
 export class YesNoButtonGroupComponent implements ControlValueAccessor {
   @Input() value: string = null;
   @Input() label = '';
+  @Input() disabled = false;
   @Output() valueChange = new EventEmitter<string>();
 
   id: string = null;
@@ -65,7 +66,7 @@ export class YesNoButtonGroupComponent implements ControlValueAccessor {
     this.onTouched = fn;
   }
 
-  setDisabledState?(isDisabled: boolean) {
-    //
+  public setDisabledState?(isDisabled: boolean) {
+    this.disabled = isDisabled;
   }
 }

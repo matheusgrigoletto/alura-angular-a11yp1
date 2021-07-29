@@ -1,27 +1,43 @@
-# A11yP1
+# A11y - P1 - Projeto de curso de Angular da Alura
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+Este é o projeto criado no curso [Angular: Design de componentes com acessibilidade](https://www.alura.com.br/curso-online-angular-introducao-componentes-acessibilidade), na plataforma de estudos da [Alura](https://www.alura.com.br/).
 
-## Development server
+### Motivação
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Buscando certificações e também aprimoramento dos estudos; evolução com o framework, focando em completar as formações dessa excelente plataforma de estudos da Alura.
 
-## Code scaffolding
+Esse curso foi essencial para aprimorar os conhecimentos do framework Angular, além de regras para escrever um bom código visando a acessibilidade.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Tópicos abordados
 
-## Build
+- Utilizar leitores de tela;
+- Entender e aplicar regras da WCAG;
+- Avançar no uso de diretivas;
+- Integrar componentes com Reactive Forms.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Execução do projeto
 
-## Running unit tests
+O projeto foi criado com o [Angular CLI](https://github.com/angular/angular-cli) versão 10.1.0.
+Após o clone do repositório, executar os comandos:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+# instalação das depêndencias
+$ sudo npm install
 
-## Running end-to-end tests
+# execução em modo de desenvolvimento
+$ ng serve
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+# ou
+$ npm start
+```
 
-## Further help
+### Screenshot
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![Tela01](./docs/screenshot.png)
+
+---
+
+## Autor
+
+- Website - [Matheus B. Grigoletto](https://matheusgrigoletto.com)
+- [LinkedIn](https://www.linkedin.com/in/matheus-grigoletto/)
